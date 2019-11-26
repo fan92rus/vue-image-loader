@@ -1,4 +1,4 @@
-import component from '.src/vue-picture-upload.vue';
+import component from './vue-picture-upload.vue';
 
 export function install(Vue) {
     if (install.installed) return;
