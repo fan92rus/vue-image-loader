@@ -1,6 +1,6 @@
 {
   "name": "vue-picture-upload",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "it loader images for vue js",
   "main": "src/index.js",
   "repository": "https://github.com/fan92rus/vue-image-loader/",
