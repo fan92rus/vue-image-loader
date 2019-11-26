@@ -2,7 +2,8 @@
   "name": "vue-image-loader",
   "version": "1.0.0",
   "description": "it loader images for vue js",
-  "main": "index.js",
+  "main": "src/index.js",
+  "repository": "https://github.com/fan92rus/vue-image-loader/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
