@@ -1,5 +1,5 @@
 {
-  "name": "vue-images-loader",
+  "name": "vue-picture-upload",
   "version": "1.0.0",
   "description": "it loader images for vue js",
   "main": "src/index.js",
