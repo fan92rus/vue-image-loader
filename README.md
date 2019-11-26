@@ -16,7 +16,6 @@ html -
    accept is string file types ('.png , .jpg') etc.<br/>
    multiple is multiply load images<br/>
    <br/>
-   ```
    @remove is event returned remove key<br/>
    @upload returned blob file for upload<br/>
-```
+
