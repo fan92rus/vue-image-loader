@@ -15,7 +15,12 @@
     "file loader",
     "vue",
     "vue image",
-    "vue loader"
+    "vue loader",
+    "vue image loader",
+    "vue-image-uploader",
+    "vue image upload",
+    "vue image uploader",
+    "vue uploader"
   ],
   "license": "ISC",
   "dependencies": {}
