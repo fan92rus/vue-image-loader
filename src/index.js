@@ -1,9 +1,9 @@
-import component from '.src/vue-image-loader.vue';
+import component from '.src/vue-img-loader.vue';
 
 export function install(Vue) {
     if (install.installed) return;
     install.installed = true;
-    Vue.component('vue-image-loader', component);
+    Vue.component('vue-img-loader', component);
 }
 
 const plugin = {

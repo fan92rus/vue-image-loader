@@ -17,5 +17,6 @@
     "vue image",
     "vue loader"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

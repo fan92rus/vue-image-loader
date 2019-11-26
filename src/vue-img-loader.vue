@@ -92,7 +92,7 @@ export default {
       };
     }
   },
-  name: "vue-image-loader"
+  name: "vue-img-loader"
 };
 </script>
 <style scoped>
