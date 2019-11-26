@@ -3,12 +3,10 @@ image loader for vue js with prevue
 
 used
 
-    ```
+```
   import ImageLoader from "vue-picture-upload";
-  ```
-  ```
   <ImageLoader :Images="images" keyName="id" valueName="i" />
-  ```
+```
 
    Images is array contained pictures
    keyName is name key property from array ('id' or 'name') etc
