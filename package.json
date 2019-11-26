@@ -1,0 +1,20 @@
+{
+  "name": "vue-image-loader",
+  "version": "1.0.0",
+  "description": "it loader images for vue js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fan92rus",
+  "keywords": [
+    "image",
+    "image loader",
+    "loader",
+    "file loader",
+    "vue",
+    "vue image",
+    "vue loader"
+  ],
+  "license": "ISC"
+}
