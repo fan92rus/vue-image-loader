@@ -4,7 +4,9 @@ image loader for vue js with prevue
 used
 
 ```
+js -
   import ImageLoader from "vue-picture-upload";
+html -
   <ImageLoader :Images="images" keyName="id" valueName="i" />
 ```
 
