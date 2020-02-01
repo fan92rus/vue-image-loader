@@ -19,8 +19,10 @@
     </div>
   </div>
 </template>
-<script>
-export default {
+<script lang="ts">
+import Vue, { VNode } from "vue";
+
+export default Vue.extend({
   props: {
     Images: {
       type: Array,
@@ -43,9 +45,6 @@ export default {
       default: ".jpg, .png, .svg"
     }
   },
-  data: () => ({
-    preLoaded: []
-  }),
   methods: {
     Select() {
       this.$refs.file.click();
@@ -69,14 +68,14 @@ export default {
       }
     },
     Upload() {
-      Array.from(this.preLoaded).forEach(el => {
+      Array.from(this.preLoaded).forEach((el: any) => {
         this.$emit("upload", el.image);
       });
       this.preLoaded = [];
     },
     async handleFileUpload() {
       const files = this.$refs.file.files;
-      Array.from(files).forEach(file => {
+      Array.from(files).forEach((file: any) => {
         const reader = new FileReader();
         reader.onload = e => {
           this.preLoaded.push({ image: e.target.result, name: file.name });
@@ -93,7 +92,12 @@ export default {
     }
   },
   name: "vue-picture-upload"
-};
+});
+class Image {
+  Blob: any;
+  Name: string;
+  Format: string;
+}
 </script>
 <style scoped>
 #file {
@@ -161,6 +165,6 @@ export default {
   text-decoration: underline;
 }
 .justify-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 </style>
